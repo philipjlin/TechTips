@@ -89,6 +89,7 @@ body{
 #list{
 
   color: white;
+  white-space: pre-line;
   position: absolute;
   left: 50%;
   top:10%;
@@ -99,7 +100,7 @@ body{
   border-radius: 5px;
   box-shadow: 0 0 5px 5px #1e599c;
   width: 65%;
-  height: 65%;
+  height: 100%;
 
   margin-top: 4%;
   padding: 2%;
