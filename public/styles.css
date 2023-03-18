@@ -1,0 +1,151 @@
+/***** GENERAL *****/
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+}
+
+body{
+  background-color: #222831;
+}
+
+
+
+
+
+/***** HEADER *****/
+#header{
+
+  color: white;
+  margin: 2%;
+}
+
+#header h1{
+
+  font-weight: bold;
+}
+
+
+
+
+
+/***** SEARCH BAR *****/
+#search{
+  
+  margin: 3%;
+}
+
+.search-bar{
+
+  color: white;
+  width: 300px;
+  height: 30px;
+  background-color: #484545;
+  border-radius: 50px;
+  border: none;
+  text-indent: 10px;
+}
+
+.search-btn{
+
+  color: white;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: #900a0a;
+  border-radius: 50px;
+  border: none;
+}
+
+
+
+
+
+/***** TECHNOLOGY CARD *****/
+#card{
+
+  color: white;
+  background-color: #a8a7a7;
+  border-radius: 5px;
+  box-shadow: 5px 5px #484545;
+  width: 250px;
+  margin: 2%;
+}
+
+.logo{
+
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
+/***** INSTRUCTIONS LIST *****/
+#list{
+
+  color: white;
+  position: absolute;
+  left: 50%;
+  top:10%;
+  transform: translateX(-50%);
+
+  z-index: 2;
+  background: #161616;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px #1e599c;
+  width: 65%;
+  height: 65%;
+
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.exit-button{
+
+  float: right;
+}
+
+.mui-icon{
+  
+  background-color: transparent;
+  transform: scale(1.25);
+}
+
+#list h1{
+
+  font-weight: bold;
+  margin: 1%;
+}
+
+#list .description{
+
+  margin: 1%;
+  color: #B4E4FF;
+}
+
+ol{
+
+  line-height: 1.5;
+  padding: 3%;
+}
+
+li::marker{
+  color: green;
+}
+
+
+
+
+
+/***** FOOTER *****/
+#footer{
+
+  color: white;
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
