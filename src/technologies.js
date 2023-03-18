@@ -87,9 +87,9 @@ const technologies = [
     },
     {
         id: 8,
-        title: "MongoDB Atlas",
+        title: "Atlas",
         imgPath: "images/atlas.png",
-        description: "Multi-cloud Database Service - manage databases on the cloud.",
+        description: "Multi-cloud Database Service - manage MongoDB databases on the cloud.",
         instructions: [
             "MongoDB Atlas Cluster: https://cloud.mongodb.com",
             "Create cluster, add username/password",
@@ -125,9 +125,7 @@ const technologies = [
             "npm install express",
             "npm install body-parser",
             "npm install ejs",
-            "Add required project files:",
-            "Server: touch app.js",
-            "Views/Resources: mkdir views, mkdir public (mkdir css, images, sounds, js)",
+            "Add required project files/dirs: app.js, views, public (css, images, sounds, js)",
             "Add process.env.PORT to app.listen line in server",
             "nodemon app.js"
         ]

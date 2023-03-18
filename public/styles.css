@@ -66,9 +66,11 @@ body{
 #card{
 
   color: white;
+  font-size: 1.25vmin;
   background-color: #a8a7a7;
   border-radius: 5px;
   box-shadow: 5px 5px #484545;
+  height: 150px;
   width: 250px;
   margin: 2%;
 }
