@@ -1,3 +1,64 @@
+# Tech Tips
+
+
+## Repository
+<https://github.com/philipjlin/TechTips>
+
+
+## Description
+Site with consolidated info on development processes used to write and deploy applications.
+
+References are to various technologies used ranging from front-end web frameworks to database management.
+
+
+## Technologies
+Front-end development in HTML/CSS, with structured JavaScript components using React.js.
+
+Data stored as JSON objects in external file.
+
+
+## High Level Components
+    * View where components are rendered
+    * Search bar
+    * CSS style sheet 
+    * Components for cards or instructions
+    * File with technology info
+
+
+## Class Overview
+    CSS
+        - styles.css
+
+<br>
+    
+    Index
+        - root
+
+<br>
+
+    Technologies
+
+<br>
+
+    Components
+        - App
+        - Card
+        - Footer
+        - Header
+        - List 
+        - Search
+
+
+## Views
+    Index
+     - Search
+     - Cards
+     - Card information (list)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
